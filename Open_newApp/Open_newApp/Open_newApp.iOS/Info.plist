@@ -36,7 +36,6 @@
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>CFBundleURLSchemes</key>
 	<array>
-<<<<<<< HEAD
 		<string>OpenApp</string>
 	</array>
   <key>LSApplicationQueriesSchemes</key>
@@ -55,17 +54,5 @@
 		<string>Homeforall</string>
 		<string>ktbnext</string>
   </array>
-=======
-		<string>MyApp</string>
-		<string>com.apple.Health</string>
-	</array>
-	<key>LSApplicationQueriesSchemes</key>
-	<string> skype </string>
-	<string> sip </string>
-	<array>
-		<string>accom.ibm.cognos-mobile</string>
-		<string>roomreservation</string>
-	</array>
->>>>>>> parent of 33fa29d (fix ios can't swap app)
 </dict>
 </plist>
