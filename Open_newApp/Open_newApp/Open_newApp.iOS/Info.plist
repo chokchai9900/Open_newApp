@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>MinimumOSVersion</key>
+	<string>8.0</string>
+	<key>CFBundleDisplayName</key>
+	<string>Open_newApp</string>
+	<key>CFBundleIdentifier</key>
+	<string>thes.dev.Open_newApp</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>CFBundleName</key>
+	<string>Open_newApp</string>
+	<key>XSAppIconAssets</key>
+	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>CFBundleURLSchemes</key>
+	<array>
+<<<<<<< HEAD
+		<string>OpenApp</string>
+	</array>
+  <key>LSApplicationQueriesSchemes</key>
+  <array>
+    <string>kbank.kplus</string>
+    <string>kbank.kplus.kplusshop</string>
+    <string>scbeasy</string>
+		<string>MyMo</string>
+		<string>bualuangmbanking</string>
+		<string>paotang</string>
+		<string>A-Mobile</string>
+		<string>krungsri-kma</string>
+    <string>tmbtouch</string>
+		<string>ThanachartConnect</string>
+		<string>mightythapp</string>
+		<string>Homeforall</string>
+		<string>ktbnext</string>
+  </array>
+=======
+		<string>MyApp</string>
+		<string>com.apple.Health</string>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<string> skype </string>
+	<string> sip </string>
+	<array>
+		<string>accom.ibm.cognos-mobile</string>
+		<string>roomreservation</string>
+	</array>
+>>>>>>> parent of 33fa29d (fix ios can't swap app)
+</dict>
+</plist>

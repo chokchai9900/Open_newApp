@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Open_newApp.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Entry x:Name="input"></Entry>
+        <Button Text="OPEN K-bank APP" Clicked="OnClick_OpenKBank" BindingContext="kbank.kplus"/>
+        <Button Text="OPEN SCB APP" Clicked="OnClick_OpenKBank" BindingContext="scbeasy"/>
+        <Button Text="OPEN MyMo APP" Clicked="OnClick_OpenKBank" BindingContext="MyMo"/>
+        <Button Text="OPEN Bualuangm Banking APP" Clicked="OnClick_OpenKBank" BindingContext="bualuangmbanking"/>
+        <Button Text="OPEN Paotang APP" Clicked="OnClick_OpenKBank" BindingContext="paotang"/>
+        <Button Text="OPEN A-Mobile (ธกส.) APP" Clicked="OnClick_OpenKBank" BindingContext="A-Mobile"/>
+        <Button Text="OPEN Krungsri APP" Clicked="OnClick_OpenKBank" BindingContext="krungsri-kma"/>
+        <Button Text="OPEN TMB Touch APP" Clicked="OnClick_OpenKBank" BindingContext="tmbtouch"/>
+        <Button Text="OPEN Thanachart Connect APP" Clicked="OnClick_OpenKBank" BindingContext="ThanachartConnect"/>
+        <Button Text="OPEN UOB Mightyth APP" Clicked="OnClick_OpenKBank" BindingContext="mightythapp"/>
+        <Button Text="OPEN Home for all (ธอส.) APP" Clicked="OnClick_OpenKBank" BindingContext="GHB ALL"/>
+        <Button Text="OPEN KTB APP" Clicked="OnClick_OpenKBank" BindingContext="ktbnext"/>
+    </StackLayout>
+
+</ContentPage>
