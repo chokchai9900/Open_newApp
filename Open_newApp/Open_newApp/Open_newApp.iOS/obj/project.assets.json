@@ -1083,24 +1083,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\manaw\\.nuget\\packages\\": {},
+    "C:\\Users\\BloodRainz\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp.iOS\\Open_newApp.iOS.csproj",
+      "projectUniqueName": "D:\\App\\demo\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp.iOS\\Open_newApp.iOS.csproj",
       "projectName": "Open_newApp.iOS",
-      "projectPath": "F:\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp.iOS\\Open_newApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\manaw\\.nuget\\packages\\",
-      "outputPath": "F:\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp.iOS\\obj\\",
+      "projectPath": "D:\\App\\demo\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp.iOS\\Open_newApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\BloodRainz\\.nuget\\packages\\",
+      "outputPath": "D:\\App\\demo\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\manaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BloodRainz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1109,15 +1109,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://perfsea.pkgs.visualstudio.com/_packaging/DevXP/nuget/v3/index.json": {},
-        "https://pkgs.dev.azure.com/thesteam/_packaging/thesteam%40Local/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "F:\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp.csproj": {
-              "projectPath": "F:\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp.csproj"
+            "D:\\App\\demo\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp.csproj": {
+              "projectPath": "D:\\App\\demo\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp.csproj"
             }
           }
         }

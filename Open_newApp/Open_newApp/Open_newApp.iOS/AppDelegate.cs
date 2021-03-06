@@ -30,7 +30,7 @@ namespace Open_newApp.iOS
 
         public override bool OpenUrl(UIApplication app, NSUrl url, NSDictionary options)
         {
-            DeeplinkHandler.Handle(url.ToString());
+            //DeeplinkHandler.Handle(url.ToString());
             return true;
         }
     }

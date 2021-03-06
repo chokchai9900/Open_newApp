@@ -20,10 +20,10 @@ namespace Open_newApp
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            Device.BeginInvokeOnMainThread(() =>
-            {
-                input.Text = DeeplinkHandler.appstr;
-            });            
+            //Device.BeginInvokeOnMainThread(() =>
+            //{
+            //    input.Text = DeeplinkHandler.appstr;
+            //});            
         }
 
         private async void OnClick_OpenKBank(object sender, EventArgs e)
@@ -32,6 +32,11 @@ namespace Open_newApp
             var Appcall = ((Button)sender).BindingContext as string;
             //var result = await DependencyService.Get<IAppHandler>().LaunchApp(Appcall);
             await Launcher.OpenAsync(new Uri($"https://mlanding.azurewebsites.net?endpoint=https://s.manal.ink/auth/visit/{Appcall}?cid=client123"));
+        }
+
+        private async void nav_Webview(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new webview1());
         }
     }
 }

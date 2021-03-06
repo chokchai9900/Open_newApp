@@ -1,0 +1,15 @@
+D:\App\demo\Open_newApp\Open_newApp\Open_newApp\Open_newApp\bin\Debug\netstandard2.0\Open_newApp.deps.json
+D:\App\demo\Open_newApp\Open_newApp\Open_newApp\Open_newApp\bin\Debug\netstandard2.0\Open_newApp.dll
+D:\App\demo\Open_newApp\Open_newApp\Open_newApp\Open_newApp\bin\Debug\netstandard2.0\ref\Open_newApp.dll
+D:\App\demo\Open_newApp\Open_newApp\Open_newApp\Open_newApp\bin\Debug\netstandard2.0\Open_newApp.pdb
+D:\App\demo\Open_newApp\Open_newApp\Open_newApp\Open_newApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\App\demo\Open_newApp\Open_newApp\Open_newApp\Open_newApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\App\demo\Open_newApp\Open_newApp\Open_newApp\Open_newApp\obj\Debug\netstandard2.0\webview1.xaml.g.cs
+D:\App\demo\Open_newApp\Open_newApp\Open_newApp\Open_newApp\obj\Debug\netstandard2.0\Open_newApp.AssemblyInfoInputs.cache
+D:\App\demo\Open_newApp\Open_newApp\Open_newApp\Open_newApp\obj\Debug\netstandard2.0\Open_newApp.AssemblyInfo.cs
+D:\App\demo\Open_newApp\Open_newApp\Open_newApp\Open_newApp\obj\Debug\netstandard2.0\Open_newApp.csproj.CoreCompileInputs.cache
+D:\App\demo\Open_newApp\Open_newApp\Open_newApp\Open_newApp\obj\Debug\netstandard2.0\XamlC.stamp
+D:\App\demo\Open_newApp\Open_newApp\Open_newApp\Open_newApp\obj\Debug\netstandard2.0\Open_newApp.dll
+D:\App\demo\Open_newApp\Open_newApp\Open_newApp\Open_newApp\obj\Debug\netstandard2.0\ref\Open_newApp.dll
+D:\App\demo\Open_newApp\Open_newApp\Open_newApp\Open_newApp\obj\Debug\netstandard2.0\Open_newApp.pdb
+D:\App\demo\Open_newApp\Open_newApp\Open_newApp\Open_newApp\obj\Debug\netstandard2.0\Open_newApp.csprojAssemblyReference.cache

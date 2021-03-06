@@ -11,7 +11,7 @@ namespace Open_newApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
@@ -29,7 +29,7 @@ namespace Open_newApp
         protected override void OnAppLinkRequestReceived(Uri uri)
         {
             base.OnAppLinkRequestReceived(uri);
-            DeeplinkHandler.Handle(uri.ToString());
+            //DeeplinkHandler.Handle(uri.ToString());
         }
     }
 }
