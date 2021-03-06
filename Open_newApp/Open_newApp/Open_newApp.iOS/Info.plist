@@ -21,7 +21,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>8.0</string>
+	<string>12.0</string>
 	<key>CFBundleDisplayName</key>
 	<string>Open_newApp</string>
 	<key>CFBundleIdentifier</key>
@@ -38,21 +38,34 @@
 	<array>
 		<string>OpenApp</string>
 	</array>
-  <key>LSApplicationQueriesSchemes</key>
-  <array>
-    <string>kbank.kplus</string>
-    <string>kbank.kplus.kplusshop</string>
-    <string>scbeasy</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>kbank.kplus</string>
+		<string>kbank.kplus.kplusshop</string>
+		<string>scbeasy</string>
 		<string>MyMo</string>
 		<string>bualuangmbanking</string>
 		<string>paotang</string>
 		<string>A-Mobile</string>
 		<string>krungsri-kma</string>
-    <string>tmbtouch</string>
+		<string>tmbtouch</string>
 		<string>ThanachartConnect</string>
 		<string>mightythapp</string>
 		<string>Homeforall</string>
 		<string>ktbnext</string>
-  </array>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>applink</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>openapp</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+	</array>
 </dict>
 </plist>

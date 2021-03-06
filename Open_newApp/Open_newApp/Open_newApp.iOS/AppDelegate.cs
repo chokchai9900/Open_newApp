@@ -27,5 +27,11 @@ namespace Open_newApp.iOS
 
             return base.FinishedLaunching(app, options);
         }
+
+        public override bool OpenUrl(UIApplication app, NSUrl url, NSDictionary options)
+        {
+            DeeplinkHandler.Handle(url.ToString());
+            return true;
+        }
     }
 }

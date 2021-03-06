@@ -11,6 +11,12 @@ namespace Open_newApp
             var List = new List<BankingListModel>();
             List.Add(new BankingListModel
             {
+                Name = "demo.univerasl.link",
+                BundleId = "thes.dev.demouniversallink",
+                IdOnAppStore = ""
+            });
+            List.Add(new BankingListModel
+            {
                 Name = "kbank.kplus",
                 BundleId = "com.kasikorn.retail.mbanking.wap",
                 IdOnAppStore = "361170631"

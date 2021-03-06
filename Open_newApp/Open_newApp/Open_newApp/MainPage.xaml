@@ -8,6 +8,9 @@
             <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
         <Entry x:Name="input"></Entry>
+        <Button Text="OPEN np nxxxyyy-123456" Clicked="OnClick_OpenKBank" BindingContext="nxxxyyy-123456"/>
+        <Button Text="OPEN np nxxxyyy-456789" Clicked="OnClick_OpenKBank" BindingContext="nxxxyyy-456789"/>
+        <Button Text="OPEN np nxxxyyy-789456" Clicked="OnClick_OpenKBank" BindingContext="nxxxyyy-789456"/>
         <Button Text="OPEN K-bank APP" Clicked="OnClick_OpenKBank" BindingContext="kbank.kplus"/>
         <Button Text="OPEN SCB APP" Clicked="OnClick_OpenKBank" BindingContext="scbeasy"/>
         <Button Text="OPEN MyMo APP" Clicked="OnClick_OpenKBank" BindingContext="MyMo"/>

@@ -17,11 +17,21 @@ namespace Open_newApp
             InitializeComponent();
         }
 
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                input.Text = DeeplinkHandler.appstr;
+            });            
+        }
+
         private async void OnClick_OpenKBank(object sender, EventArgs e)
         {
 
             var Appcall = ((Button)sender).BindingContext as string;
-            var result = await DependencyService.Get<IAppHandler>().LaunchApp(Appcall);
+            //var result = await DependencyService.Get<IAppHandler>().LaunchApp(Appcall);
+            await Launcher.OpenAsync(new Uri($"https://mlanding.azurewebsites.net?endpoint=https://s.manal.ink/auth/visit/{Appcall}?cid=client123"));
         }
     }
 }

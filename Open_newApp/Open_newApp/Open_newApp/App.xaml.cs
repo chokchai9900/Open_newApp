@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Web;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -23,6 +24,12 @@ namespace Open_newApp
 
         protected override void OnResume()
         {
+        }
+
+        protected override void OnAppLinkRequestReceived(Uri uri)
+        {
+            base.OnAppLinkRequestReceived(uri);
+            DeeplinkHandler.Handle(uri.ToString());
         }
     }
 }

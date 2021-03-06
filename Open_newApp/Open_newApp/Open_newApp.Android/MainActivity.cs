@@ -1,6 +1,7 @@
 ﻿using System;
 
 using Android.App;
+using Android.Content;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.Views;
@@ -13,6 +14,11 @@ using Open_newApp.Droid;
 namespace Open_newApp.Droid
 {
     [Activity(Label = "Open_newApp", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize )]
+    [IntentFilter(new[] { Intent.ActionView },
+            DataScheme = "openapp",
+            Categories = new[] {
+            Intent.CategoryDefault,
+            Intent.CategoryBrowsable})]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)

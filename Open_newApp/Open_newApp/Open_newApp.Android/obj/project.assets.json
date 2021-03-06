@@ -1996,24 +1996,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BloodRainz\\.nuget\\packages\\": {},
+    "C:\\Users\\manaw\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\App\\SwapApp\\Open_newApp\\Open_newApp\\Open_newApp.Android\\Open_newApp.Android.csproj",
+      "projectUniqueName": "F:\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp.Android\\Open_newApp.Android.csproj",
       "projectName": "Open_newApp.Android",
-      "projectPath": "D:\\App\\SwapApp\\Open_newApp\\Open_newApp\\Open_newApp.Android\\Open_newApp.Android.csproj",
-      "packagesPath": "C:\\Users\\BloodRainz\\.nuget\\packages\\",
-      "outputPath": "D:\\App\\SwapApp\\Open_newApp\\Open_newApp\\Open_newApp.Android\\obj\\",
+      "projectPath": "F:\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp.Android\\Open_newApp.Android.csproj",
+      "packagesPath": "C:\\Users\\manaw\\.nuget\\packages\\",
+      "outputPath": "F:\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\BloodRainz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\manaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2022,13 +2022,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://perfsea.pkgs.visualstudio.com/_packaging/DevXP/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/thesteam/_packaging/thesteam%40Local/nuget/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\App\\SwapApp\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp.csproj": {
-              "projectPath": "D:\\App\\SwapApp\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp.csproj"
+            "F:\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp.csproj": {
+              "projectPath": "F:\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp\\Open_newApp.csproj"
             }
           }
         }
